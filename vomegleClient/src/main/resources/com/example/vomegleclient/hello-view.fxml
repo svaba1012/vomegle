@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.vomegleclient.HelloController" stylesheets="@styles.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label styleClass="labelMenu" text="ВOмегле је апликација која те спаја у чет са насумичним странцима. "/>
+
+    <Label styleClass="labelMenu" text="Уживај!!!"></Label>
+
+    <Button visible="false" disable="true"></Button>
+
+    <Button styleClass="acceptBtn,bigBtn" text="Започни чет!" onAction="#onHelloButtonClick" >
+        <padding>
+        <Insets top="10" bottom="10" left="10" right="10"></Insets>
+    </padding>
+    </Button>
+</VBox>

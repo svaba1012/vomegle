@@ -1,0 +1,46 @@
+
+.root{
+    -fx-background-radius: 10;
+}
+
+.labelMenu{
+    -fx-font-size: 16;
+}
+
+.bigBtn{
+    -fx-font-size: 30;
+}
+
+.smallBtn{
+    -fx-font-size: 16;
+}
+
+.userLbl{
+    -fx-background-color: green;
+}
+
+.strangerLbl{
+    -fx-background-color: gray;
+}
+
+.chatLbl{
+    -fx-font-size: 16;
+    -fx-padding: 5 15 5 15;
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+}
+
+.acceptBtn{
+    -fx-text-fill: blue;
+    -fx-padding: 10 10 10 10;
+}
+
+#text{
+    -fx-padding: 10 10 10 10;
+    -fx-font-size: 16;
+}
+
+.cancelBtn{
+    -fx-text-fill: red;
+    -fx-padding: 10 10 10 10;
+}
